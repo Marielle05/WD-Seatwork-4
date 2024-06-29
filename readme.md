@@ -110,4 +110,4 @@ WD-ProjectName
 | Seatwork 4 | get some ideas | https://github.com/zyx-0314/WD-Seatwork-4|
 |Creative Website Design Feature section in HTML CSS and ALL|get some ideas|https://youtu.be/G8q4bc8cCaM?si=oFNKVZAyg6JP5ibH|
 |Create A Responsive E-Commerce Flower Shop Website Design Using Pure HTML & CSS Only|get some ideas|https://youtu.be/cLOT0APQzDs?si=yfaHpTJmHec7Hans|
-|Complete Responsive Website Using HTML CSS | Responsive web design tutorial|get some ideas on the layout|https://youtu.be/ZdJSHEczi_0?si=kY0NPIGdboiSZq9C|
+|Complete Responsive Website Using HTML CSS Responsive web design tutorial|get some ideas on the layout|https://youtu.be/ZdJSHEczi_0?si=kY0NPIGdboiSZq9C|
