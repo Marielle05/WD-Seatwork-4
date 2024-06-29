@@ -1,0 +1,305 @@
+/* Reset default margin and padding */
+body, nav, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 25px 20px; /* Padding around the header */
+    border-bottom: 1px solid #ccc; /* Light border at the bottom */
+}
+
+/* Style the navigation */
+nav ul {
+    list-style-type: none; 
+    text-align: right; 
+}
+
+nav ul li {
+    display: inline-block; /* Display navigation items inline */
+    margin-right: 20px; /* Space between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark gray text color */
+    font-size: 16px; /* Font size for links */
+    font-weight: bold; /* Bold font weight */
+    padding: 10px 15px; /* Padding inside each link */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #ddd; /* Light gray background on hover */
+    color: #555; /* Darker text color on hover */
+}
+
+main{
+    text-align: center;
+    margin-top: 11%;
+}
+
+.start{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 5vh;
+margin-top: 5%;
+text-align: center;
+}
+
+.mac{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vh;
+    text-align: center;
+}
+
+.feature{
+    font-family: Arial, sans-serif;
+    font-size: 5vh;
+    text-align: center;
+}
+.bg{
+    background-color: black;
+}
+
+.explore {
+    font-family: Arial, sans-serif;
+    font-size: 5vh;
+    color: grey;
+}
+
+.three{
+    font-family: Arial, sans-serif;
+    font-size: 5vh;
+    color: white;
+    padding-left: 20%;
+}
+.blasts{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: grey;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.white{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.m {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m1, .m2, .m3 {
+    display: flex;
+    justify-content: center;
+}
+
+.m1 img, .m2 img, .m3 img {
+    max-width: 100%;
+}
+
+.m1{
+    padding-left: 15%;
+}
+
+.m2{
+padding-right: 0%;
+}
+.m3{
+    padding-right: 18%;
+}
+
+
+/*1st*/
+
+.p1, .p2, .p3 {
+    font-family: Arial, sans-serif;
+    padding: 5%;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+.p1{
+    padding-left: 21%;
+}
+
+.p2{
+    padding-left: 6%;
+}
+
+
+/*2nd*/
+
+.p12, .p22, .p32 {
+    font-family: Arial, sans-serif;
+    padding: 5%;
+    display: inline-block;
+    color: #318ee9;
+    margin-right: 20px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.p12{
+    padding-left: 21%;
+}
+
+/*3rd*/
+.p13, .p23, .p33 {
+    font-family: Arial, sans-serif;
+    padding: 5%;
+    display: inline-block;
+    color: #318ee9;
+    margin-right: 20px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.p13{
+    padding-left: 21%;
+    padding-right: 2%;
+}
+
+.p23{
+    padding-right: 2%;
+}
+
+/*color*/
+
+.p1, .p12, .p13{
+    color:#48b0b0;
+}
+.p2, .p22, .p22{
+    color: #318ee9;
+}
+.p3, .p32, .p33{
+    color: #a171ea;
+}
+.game{
+color: white;
+font-size: 5vh;
+font-family: Arial, sans-serif;
+padding-left: 20%;
+}
+.line {
+    border-top: 0.5px solid #ccc; /* Grey color (#ccc) */
+    width: 80%; /* Adjust width as per your design */
+    margin: 0 auto; /* Centers the line horizontally with equal margins */
+}
+.behold{
+    color: grey;
+    font-family: Arial, sans-serif;
+    padding-left: 15%;
+    padding-right: 10%;
+    font-size: 3vh;
+}
+
+.games{
+    color: grey;
+    font-family: Arial, sans-serif;
+    padding-right: 15%;
+    font-size:  3vh;
+}
+.row1 {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items evenly along the row */
+}
+.behold, .games {
+    flex: 1;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.upto{
+    font-family: Arial, sans-serif;
+    font-size: 3vh;
+    padding-left: 15%;
+}
+.upto{
+    color: white;
+    font-size: 5vh;
+}
+
+
+.grey{
+    color: grey;
+    font-weight: bold;
+    font-size: 3vh;
+}
+.hardware{
+    font-family: Arial, sans-serif;
+    font-size: 5vh;
+    color: white;
+    padding-left: 15%;
+}
+
+.for{
+    font-family: Arial, sans-serif;
+    font-size: 3vh;
+    color: grey;
+    padding-left: 15%;
+    padding-right: 30%;
+}
+.maxon{
+    font-family: Arial,sans-serif;
+    font-size: 2vh;
+    padding-left: 80%;
+    color: grey;
+}
+.line2 {
+    border-top: 0.5px solid #ccc; /* Grey color (#ccc) */
+    width: 80%; /* Adjust width as per your design */
+    margin: 0 auto; /* Centers the line horizontally with equal margins */
+    color: grey;
+}
+
+
+.row2 {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed for spacing */
+}
+
+.faster, .over {
+    flex: 1; /* Equal width for both divs */
+    padding: 20px; /* Adjust padding as per your design */
+}
+.faster{
+    color: grey;
+    font-family: Arial, sans-serif;
+    padding-left: 15%;
+    padding-right: 10%;
+    font-size: 3vh;
+}
+.over{
+    color: grey;
+    font-family: Arial, sans-serif;
+    padding-right: 15%;
+    font-size:  3vh;
+    font-weight: bold;
+}
+
+footer {
+    background: #232526;
+    background: linear-gradient(to right, #414345, #232526);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
