@@ -1,0 +1,44 @@
+/* Reset default margin and padding */
+body, nav, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 25px 20px; /* Padding around the header */
+    border-bottom: 1px solid #ccc; /* Light border at the bottom */
+}
+
+/* Style the navigation */
+nav ul {
+    list-style-type: none; 
+    text-align: right; 
+}
+
+nav ul li {
+    display: inline-block; /* Display navigation items inline */
+    margin-right: 20px; /* Space between navigation items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark gray text color */
+    font-size: 16px; /* Font size for links */
+    font-weight: bold; /* Bold font weight */
+    padding: 10px 15px; /* Padding inside each link */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #ddd; /* Light gray background on hover */
+    color: #555; /* Darker text color on hover */
+}
+
+main{
+    text-align: center;
+    margin-top: 11%;
+    font-family: Arial, sans-serif;
+    font-size: 4vh;
+}
